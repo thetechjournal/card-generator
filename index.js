@@ -113,14 +113,14 @@ form.addEventListener('submit', event => {
 })
 
 async function getImages() {
-let imageArray = [];
-const url = "designs.json"
-let response = await fetch(url)
-let data = await response.json();
-for(let i=0; i<data.length; i++){
-    imageArray.push(data[i]);
-}
-return imageArray;
+    let imageArray = [];
+    const url = "designs.json"
+    let response = await fetch(url)
+    let data = await response.json();
+    for(let i=0; i<data.length; i++){
+        imageArray.push(data[i]);
+    }
+    return imageArray;
 }
 
 
