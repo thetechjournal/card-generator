@@ -1,0 +1,209 @@
+body {
+   margin: 0;
+   display: flex;
+   flex-direction: column wrap;
+   font-size: 1.125rem;
+   font-weight: 300;
+   background-image: url('../images/nature-bg-main.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+Background Images
+https://pixabay.com/photos/nature-flower-flora-season-desktop-3173180/  -b
+https://cdn.pixabay.com/photo/2017/03/20/23/54/pink-2160666_1280.jpg -b
+https://pixabay.com/photos/hydrangea-flower-3176654/ -b
+https://pixabay.com/photos/bokeh-pink-light-lights-colors-2072271/ -b
+*/
+
+.container {
+   max-width: 960px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+h1 { 
+   font-weight: 700;
+   text-align: center;
+   color: rgb(46, 44, 44);
+   font-family: 'Montserrat', sans-serif;
+}
+
+.card-view {
+   max-width: 960px;
+   display: flex;
+   flex-direction: row;
+   border: 20px solid gray;
+   /* margin: 0.8em; */
+   font-family: 'Dancing Script', cursive;
+  
+}
+
+.card-content {
+   width: 40%;
+   min-width: 40%;
+   height: 350px;
+   background-color: lightgray;
+}
+
+.card-image-container {
+   width: 60%;
+   height: 350px;
+   background-color: lightpink;
+}
+
+img {
+   height: 350px;
+   width: 100%;
+   margin: 0;
+   object-fit: cover;
+}
+
+.form-container {
+   justify-content: center;
+   align-content: center;
+   display: flex;
+   flex-direction: row;
+   padding: 0.8em 0;
+}
+
+.title-display {
+   font-size: 2rem;
+   text-align: center;
+   font-style: italic;
+   font-family: 'Ballet', cursive;
+   padding-top: 0.5em;
+}
+
+.greeting {
+   font-size: 1.5rem;
+}
+
+.message-display {
+   font-size: 1.5rem;
+   font-style: italic;
+}
+
+.sender-greeting {
+   font-size: 1.5rem;
+   margin-bottom: 0;
+}
+
+.s-name-display {
+   font-size: 1.5rem;
+   margin-top: 0px;
+}
+
+.color-picker {
+   display: flex;
+}
+
+.colors {
+   display: flex;
+   flex-direction: row;
+	height:1em;
+   width:1em;
+   border-radius: 1em;
+   border:1px solid gray;
+   margin-top: 0.5em;
+   padding-left: 0.3em;
+   cursor:pointer;
+}
+
+#gray {
+	background-color:lightgray;	
+}
+#pink {
+	background-color:rgb(224, 178, 186);	
+}
+#yellow {
+	background-color:rgb(214, 214, 156);	
+}
+#green {
+	background-color:rgb(132, 167, 132);	
+}
+#blue {
+	background-color:rgb(99, 129, 210);	
+}
+#indigo {
+	background-color:indigo;	
+}
+#violet {
+	background-color:rgb(226, 169, 226);	
+}
+
+label {
+   font-size: 1rem ;
+   margin: 0.8em 1em;
+ }
+
+input, textarea, select {
+font-family: 'Montserrat', sans-serif;
+font-size: 1rem; 
+padding:0.6em;
+margin  : 0.6em;
+border:0; 
+box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+border-radius:0.8em;
+vertical-align: middle;
+width: 100%;
+
+} 
+
+textarea {
+   resize: none;
+   width: 95%;
+}
+
+select {
+   width: 100%;
+}
+
+input:focus, textarea:focus, select:focus {
+   background   : rgba(0,0,0,.1);
+   outline: none;
+   border-radius: 0.4em;
+}
+
+.sec1, .sec2 {
+   margin: 0 2.5em;
+
+}
+
+.msg {
+   margin: 0.5em 0.5em;
+}
+
+@media (max-width: 750px) {
+
+      .card-view {
+         display: flex;
+         flex-direction: column;
+      }
+
+      .card-content {
+         width: 100%;
+      }
+
+      .card-image-container {
+         width: 100%;
+      }
+}
+
+@media (max-width: 750px) {
+   .form-container {
+      flex-direction: column;
+   }
+
+   .card-input {
+      display: flex;
+      align-content: center; 
+      justify-content: center;
+   }
+}  
+
+
+

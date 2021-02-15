@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Rose Pink",
+        "src": "./images/pink-roses.jpg"
+    },
+    
+    {
+        "id": 2,
+        "name": "Pink Tulip",
+        "src": "./images/pink-tulip.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Light Pink Tulip",
+        "src": "./images/tulips.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Valentine",
+        "src": "./images/valentine.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pink Flowers",
+        "src": "./images/bg-2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Red Roses",
+        "src": "./images/roses.jpg"
+    }
+]
+    
+

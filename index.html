@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flowery Greetings</h1>
+        </header>
+        <main>
+            <div class="card-input">
+                   <form>
+                        <div class="form-container">
+                            <div class="sec1">
+                                <div>
+                                    <label for="title">Title:</label>
+                                    <input type="text" id="title" name="title" placeholder="e.g: Happy Family Day">
+                                </div>
+                                <div>
+                                    <label for="rname">To:</label>
+                                    <input type="text" id="rname" name="rname" placeholder="Recipient name">        
+                                </div>
+                                <div>
+                                    <label for="sname">From:</label>
+                                    <input type="text" id="sname" name="sname" placeholder="Sender name">
+                                </div>
+                            </div> <!-- end of section 1 -->
+                            <div class="sec2">
+                                <div class="color-picker">
+                                    <label>Choose color:</label>
+                                    <div class="colors" id="pink" ></div>
+                                    <div class="colors" id="yellow" ></div>			
+                                    <div class="colors" id="green" ></div>
+                                    <div class="colors" id="blue" ></div>
+                                    <div class="colors" id="indigo" ></div>
+                                    <div class="colors" id="violet" ></div>
+                                    <div class="colors" id="gray" ></div>
+                                </div>
+                                <div>
+                                    <label for="image">Choose image:</label>
+                                    <select id="select-image">
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" rows="3" cols="15" maxlength="80" placeholder="Your message..."></textarea>
+                                </div>
+                            </div> <!-- end of section 2 -->
+                        </div>  <!-- end of form-container -->        
+                   </form> 
+                </div> <!-- card-input -->
+
+                <div class="card-view">
+                    <div class="card-content">
+                        <div class="title-display msg">Happy Family Day</div>
+                        <div>
+                            <p class="greeting msg">Dear <span class="r-name-display">Ambreen</span></p>
+                            <p class="message-display msg">Family is the most precious and wonderful gift of God. Keep your family safe and take care of them. </p>
+                        </div>
+                        <div>
+                            <p class="sender-greeting msg">Best Wishes,</p>
+                            <p class="s-name-display msg">Mariam</p>
+                        </div>
+                    </div>
+                    <div class="card-image-container">
+                        <img id="img-card" src="">
+                    </div>
+                </div>
+        </main>
+    </div>
+       
+    <script src="./index.js"></script>
+</body>
+</html>
+
